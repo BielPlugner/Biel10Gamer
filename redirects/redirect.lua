@@ -1,3 +1,5 @@
+
+-- cor dos botões
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local PresetColor = Color3.fromRGB(66, 134, 255)
 local UserInputService = game:GetService("UserInputService")
@@ -133,7 +135,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	GlowTabHolder.Size = UDim2.new(1, 30, 1, 30)
 	GlowTabHolder.ZIndex = 0
 	GlowTabHolder.Image = "rbxassetid://4996891970"
-	GlowTabHolder.ImageColor3 = Color3.fromRGB(15, 15, 15)
+	GlowTabHolder.ImageColor3 = Color3.fromRGB(255, 255, 255)
 	GlowTabHolder.ScaleType = Enum.ScaleType.Slice
 	GlowTabHolder.SliceCenter = Rect.new(20, 20, 280, 280)
 
@@ -259,7 +261,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 		NotificationFrameGlow.Size = UDim2.new(1, 30, 1, 30)
 		NotificationFrameGlow.ZIndex = 0
 		NotificationFrameGlow.Image = "rbxassetid://4996891970"
-		NotificationFrameGlow.ImageColor3 = Color3.fromRGB(15, 15, 15)
+		NotificationFrameGlow.ImageColor3 = Color3.fromRGB(255, 255, 255)
 		NotificationFrameGlow.ScaleType = Enum.ScaleType.Slice
 		NotificationFrameGlow.SliceCenter = Rect.new(20, 20, 280, 280)
 
@@ -1817,7 +1819,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Colorpicker.Name = "Colorpicker"
 			Colorpicker.Parent = Container
-			Colorpicker.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Colorpicker.BackgroundColor3 = Color3.fromRGB(28, 26, 26) -- cor dos botões
 			Colorpicker.ClipsDescendants = true
 			Colorpicker.Position = UDim2.new(0.110937499, 0, 0.67653507, 0)
 			Colorpicker.Size = UDim2.new(0, 457, 0, 43)
