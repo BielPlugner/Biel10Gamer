@@ -9,7 +9,7 @@ local Mouse = LocalPlayer:GetMouse()
 local CloseBind = Enum.KeyCode.RightControl
 -- ================================================================
 local cor_linha = Color3.fromRGB(46, 1, 1)
-
+local = cor_botoes = Color3.fromRGB(28, 26, 26)
 
 
 
@@ -115,7 +115,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = FluxLib
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(50, 53, 59)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(50, 53, 59) -- Testar amanhã
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 	MainFrame.Size = UDim2.new(0, 0, 0, 0)
@@ -287,7 +287,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 		CloseBtn.Name = "CloseBtn"
 		CloseBtn.Parent = NotificationFrame
-		CloseBtn.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+		CloseBtn.BackgroundColor3 = cor_botoes
 		CloseBtn.ClipsDescendants = true
 		CloseBtn.Position = UDim2.new(0.0403124988, 0, 0.720855951, 0)
 		CloseBtn.Size = UDim2.new(0, 366, 0, 43)
@@ -536,7 +536,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Button.Name = "Button"
 			Button.Parent = Container
-			Button.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Button.BackgroundColor3 = cor_botoes
 			Button.ClipsDescendants = true
 			Button.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
 			Button.Size = UDim2.new(0, 457, 0, 43)
@@ -579,7 +579,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			CircleSmall.BackgroundColor3 = cor_botoes
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -604,7 +604,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			ArrowBtn.Name = "ArrowBtn"
 			ArrowBtn.Parent = Button
-			ArrowBtn.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+			ArrowBtn.BackgroundColor3 = Color3.from(21, 219, 90)
 			ArrowBtn.BackgroundTransparency = 1.000
 			ArrowBtn.Position = UDim2.new(0.903719902, 0, 0, 0)
 			ArrowBtn.Size = UDim2.new(0, 33, 0, 37)
@@ -759,7 +759,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = Container
-			Toggle.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Toggle.BackgroundColor3 = cor_botoes
 			Toggle.ClipsDescendants = true
 			Toggle.Position = UDim2.new(0.110937506, 0, 0.67653507, 0)
 			Toggle.Size = UDim2.new(0, 457, 0, 43)
@@ -802,7 +802,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			CircleSmall.BackgroundColor3 = cor_botoes
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -847,7 +847,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			ArrowBtn.Name = "ArrowBtn"
 			ArrowBtn.Parent = Toggle
-			ArrowBtn.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+			ArrowBtn.BackgroundColor3 = Color3.from(21, 219, 90)
 			ArrowBtn.BackgroundTransparency = 1.000
 			ArrowBtn.Position = UDim2.new(0.903719902, 0, 0, 0)
 			ArrowBtn.Size = UDim2.new(0, 33, 0, 37)
@@ -1030,7 +1030,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Slider.Name = "Slider"
 			Slider.Parent = Container
-			Slider.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Slider.BackgroundColor3 = cor_botoes
 			Slider.ClipsDescendants = true
 			Slider.Position = UDim2.new(0.189062506, 0, 0.648612201, 0)
 			Slider.Size = UDim2.new(0, 457, 0, 60)
@@ -1074,7 +1074,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			CircleSmall.BackgroundColor3 = cor_botoes
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -1121,7 +1121,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			ArrowBtn.Name = "ArrowBtn"
 			ArrowBtn.Parent = Slider
-			ArrowBtn.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+			ArrowBtn.BackgroundColor3 = Color3.from(21, 219, 90)
 			ArrowBtn.BackgroundTransparency = 1.000
 			ArrowBtn.Position = UDim2.new(0.903719902, 0, 0, 0)
 			ArrowBtn.Size = UDim2.new(0, 33, 0, 37)
@@ -1325,7 +1325,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Dropdown.Name = "Dropdown"
 			Dropdown.Parent = Container
-			Dropdown.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Dropdown.BackgroundColor3 = cor_botoes
 			Dropdown.ClipsDescendants = true
 			Dropdown.Position = UDim2.new(0.110937499, 0, 0.67653507, 0)
 			Dropdown.Size = UDim2.new(0, 457, 0, 43)
@@ -1368,7 +1368,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			CircleSmall.BackgroundColor3 = cor_botoes
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -1522,7 +1522,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 				
 			Item.Name = "Item"
 			Item.Parent = DropItemHolder
-			Item.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Item.BackgroundColor3 = cor_botoes
 			Item.ClipsDescendants = true
 			Item.Size = UDim2.new(0, 427, 0, 25)
 			Item.AutoButtonColor = false
@@ -1614,7 +1614,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 				Item.Name = "Item"
 				Item.Parent = DropItemHolder
-				Item.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+				Item.BackgroundColor3 = cor_botoes
 				Item.ClipsDescendants = true
 				Item.Size = UDim2.new(0, 427, 0, 25)
 				Item.AutoButtonColor = false
@@ -1826,7 +1826,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Colorpicker.Name = "Colorpicker"
 			Colorpicker.Parent = Container
-			Colorpicker.BackgroundColor3 = Color3.fromRGB(28, 26, 26) -- cor dos botões
+			Colorpicker.BackgroundColor3 = cor_botoes -- cor dos botões
 			Colorpicker.ClipsDescendants = true
 			Colorpicker.Position = UDim2.new(0.110937499, 0, 0.67653507, 0)
 			Colorpicker.Size = UDim2.new(0, 457, 0, 43)
@@ -1876,7 +1876,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			CircleSmall.BackgroundColor3 = cor_botoes
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -1976,7 +1976,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Confirm.Name = "Confirm"
 			Confirm.Parent = Title
-			Confirm.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Confirm.BackgroundColor3 = cor_botoes
 			Confirm.ClipsDescendants = true
 			Confirm.Position = UDim2.new(2.3791616, 0, 1.97633278, 0)
 			Confirm.Size = UDim2.new(0, 144, 0, 42)
@@ -2289,7 +2289,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Line.Name = "Line"
 			Line.Parent = Container
-			Line.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Line.BackgroundColor3 = cor_botoes
 			Line.ClipsDescendants = true
 			Line.Position = UDim2.new(0, 0, 0.70091325, 0)
 			Line.Size = UDim2.new(0, 457, 0, 4)
@@ -2312,7 +2312,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Label.Name = "Label"
 			Label.Parent = Container
-			Label.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Label.BackgroundColor3 = cor_botoes
 			Label.ClipsDescendants = true
 			Label.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
 			Label.Size = UDim2.new(0, 457, 0, 43)
@@ -2362,7 +2362,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Textbox.Name = "Textbox"
 			Textbox.Parent = Container
-			Textbox.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Textbox.BackgroundColor3 = cor_botoes
 			Textbox.ClipsDescendants = true
 			Textbox.Position = UDim2.new(0.0459499061, 0, 0.734449744, 0)
 			Textbox.Size = UDim2.new(0, 457, 0, 43)
@@ -2405,7 +2405,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			CircleSmall.BackgroundColor3 = cor_botoes
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -2450,7 +2450,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			ArrowBtn.Name = "ArrowBtn"
 			ArrowBtn.Parent = Textbox
-			ArrowBtn.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+			ArrowBtn.BackgroundColor3 = Color3.from(21, 219, 90)
 			ArrowBtn.BackgroundTransparency = 1.000
 			ArrowBtn.Position = UDim2.new(0.903719902, 0, 0, 0)
 			ArrowBtn.Size = UDim2.new(0, 33, 0, 37)
@@ -2587,7 +2587,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Bind.Name = "Bind"
 			Bind.Parent = Container
-			Bind.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			Bind.BackgroundColor3 = cor_botoes
 			Bind.ClipsDescendants = true
 			Bind.Position = UDim2.new(0.40625, 0, 0.828947306, 0)
 			Bind.Size = UDim2.new(0, 457, 0, 43)
@@ -2630,7 +2630,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(28, 26, 26)
+			CircleSmall.BackgroundColor3 = cor_botoes
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
