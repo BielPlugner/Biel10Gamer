@@ -1,4 +1,3 @@
-
 -- cor dos botões
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local PresetColor = Color3.fromRGB(66, 134, 255)
@@ -8,6 +7,14 @@ local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local CloseBind = Enum.KeyCode.RightControl
+-- ================================================================
+local cor_linha = Color3.fromRGB(46, 1, 1)
+
+
+
+
+
+-- ================================================================
 
 local FluxLib = Instance.new("ScreenGui")
 FluxLib.Name = "FluxLib"
@@ -135,7 +142,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	GlowTabHolder.Size = UDim2.new(1, 30, 1, 30)
 	GlowTabHolder.ZIndex = 0
 	GlowTabHolder.Image = "rbxassetid://4996891970"
-	GlowTabHolder.ImageColor3 = Color3.fromRGB(255, 255, 255)
+	GlowTabHolder.ImageColor3 = cor_linha
 	GlowTabHolder.ScaleType = Enum.ScaleType.Slice
 	GlowTabHolder.SliceCenter = Rect.new(20, 20, 280, 280)
 
@@ -261,7 +268,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 		NotificationFrameGlow.Size = UDim2.new(1, 30, 1, 30)
 		NotificationFrameGlow.ZIndex = 0
 		NotificationFrameGlow.Image = "rbxassetid://4996891970"
-		NotificationFrameGlow.ImageColor3 = Color3.fromRGB(255, 255, 255)
+		NotificationFrameGlow.ImageColor3 = Color3.fromRGB(15, 15, 15)
 		NotificationFrameGlow.ScaleType = Enum.ScaleType.Slice
 		NotificationFrameGlow.SliceCenter = Rect.new(20, 20, 280, 280)
 
