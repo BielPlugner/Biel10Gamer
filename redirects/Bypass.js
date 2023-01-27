@@ -16,3 +16,6 @@
     else if (window.location.href.includes(captcha4)){
         window.location.href = 'https://texturas3dff.com/5-captcha-krnl/'
     }
+    else{
+    console.log('Olá acho que n deu nenhum:)
+    }
