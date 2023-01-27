@@ -19,6 +19,7 @@ if (window.location.href.includes("linkvertise.com/48193/krnlc3/1")) {
 //     tentar redirecionar!
 
 if (window.location.href.includes("example.com/captcha2")) {
+  console.log('Deu certo')
   setTimeout(() => {
   window.location.href = "https://cdn.krnl.place/getkey_games";
 }, 3000);
