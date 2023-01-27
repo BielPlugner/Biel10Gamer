@@ -1,5 +1,18 @@
-if (window.location.href.includes("linkvertise.com")) {
-  window.location.href = "https://google.com";
+if (window.location.href.includes("linkvertise.com/48193/krnlc4/1")) {
+  window.location.href = "https://texturas3dff.com/2-captcha-krnl/";
+}
+
+
+if (window.location.href.includes("linkvertise.com/48193/krnlkey/1")) {
+  window.location.href = "https://texturas3dff.com/3-captcha-krnl/";
+}
+
+if (window.location.href.includes("linkvertise.com/48193/thekrnlkey/1")) {
+  window.location.href = "https://texturas3dff.com/4-captcha-krnl/";
+}
+
+if (window.location.href.includes("linkvertise.com/48193/krnlc3/1")) {
+  window.location.href = "https://texturas3dff.com/5-captcha-krnl/";
 }
 
 
