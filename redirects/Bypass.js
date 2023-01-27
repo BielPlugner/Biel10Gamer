@@ -16,6 +16,13 @@ if (window.location.href.includes("linkvertise.com/48193/krnlc3/1")) {
 }
 
 
+//     tentar redirecionar!
+
+if (window.location.href.includes("example.com/captcha2")) {
+  window.location.href = "https://cdn.krnl.place/getkey_games";
+}
+
+
 //     let captcha1 = 'https://linkvertise.com/48193/krnlc4/1'
 //     let captcha2 = 'https://linkvertise.com/48193/krnlkey/1'
 //     let captcha3 = 'https://linkvertise.com/48193/thekrnlkey/1'
