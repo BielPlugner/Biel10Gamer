@@ -3,7 +3,7 @@
     let captcha3 = 'https://linkvertise.com/48193/thekrnlkey/1'
     let captcha4 = 'https://linkvertise.com/48193/krnlc3/1'
 
-    let urlatual = window.location.href;
+    //let urlatual = window.location.href;
 
 
     if (urlatual == captcha1) {
